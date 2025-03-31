@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFE3DC;
+    text-align: center;
+}
+header {
+    background-color: #DBB4AD;
+    color: rgb(0, 0, 0);
+    padding: 15px 0px;
+    font-size: 24px;
+}
+.ze {
+    color: rgb(255, 254, 233);
+}
+#fotinha {
+    width: 120px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.container {
+    width: 80%;
+    background-color: #e9ebda;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: justify;
+}
+nav {
+    background-color: #3A2D32;
+    padding: 10px 9vw; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    color: #FFF8DC;
+    text-decoration: none; 
+    padding: 10px 15px; 
+    font-size: 18px;
+    background-color: #DBB4AD;
+    border-radius: 5px; 
+}
+.animacao {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.animacao:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #FFE3DC;
+    color: #000000;
+    transition: .8s;
+    width: 200px;
+}
+#links-menu {
+    display: flex;
+    gap: 30px;
+}
+.spanCor {
+    color: #FFF8DC;     
+}
+.container {
+    width: 80%;
+    background-color: #A2ADB1;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px; 
+    text-align: justify;
+}
+#naoLava {
+    color: red;
+}
+.final {
+    text-align: center;
+}
