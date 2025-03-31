@@ -18,8 +18,10 @@ header {
 }
 
 #fotinha {
-    width: 100px;
+    width: 90%;
+    max-width: 120px;
     height: auto;
+    margin-right: 20px;
     border-radius: 10px;
 }
 
@@ -45,13 +47,11 @@ nav {
 nav a {
     color: #FFF8DC;
     text-decoration: none;
-    padding: 10px 12px;
-    font-size: 16px;
+    padding: 10px 15px;
+    font-size: 18px;
     background-color: #DBB4AD;
     border-radius: 5px;
-    display: block;
-    width: 90%;
-    max-width: 200px;
+    width: 80%;
     text-align: center;
 }
 
@@ -71,7 +71,6 @@ nav a {
 
 #naoLava {
     color: red;
-    font-weight: bold;
 }
 
 .final {
@@ -81,23 +80,31 @@ nav a {
 }
 
 /* Responsividade */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     nav {
+        padding: 10px 4vw;
         flex-direction: column;
-        gap: 8px;
+        align-items: center;
     }
 
     nav a {
-        font-size: 14px;
-        padding: 8px 10px;
+        font-size: 16px;
+        padding: 8px 12px;
+        width: 100%;
     }
 
     .container {
-        width: 95%;
+        width: 90%;
         padding: 15px;
     }
 
     #fotinha {
-        width: 80px;
+        width: 80%;
+        max-width: 100px;
+    }
+
+    header {
+        font-size: 20px;
+        padding: 10px 0;
     }
 }
